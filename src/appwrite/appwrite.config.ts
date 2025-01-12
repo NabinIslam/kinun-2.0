@@ -1,5 +1,6 @@
 import { Client } from "appwrite";
+import { appwriteProjectId } from "@/secrets";
 
 const client = new Client();
 
-client.setProject("678418d2002d5e2dc90d");
+client.setProject(appwriteProjectId as string);
